@@ -1,0 +1,21 @@
+1.- instalar node con el comando npm
+	npm -v
+
+2.- crear una carpeta para los proyectos y nos posiciopnamos dentro de esa carpeta
+
+3.- crear el proyecto:
+		npm create vite@latest ejemplo1-hello-world
+			- React
+			- JavaScript
+			- ESLint
+			- Yes
+
+4.- Ver el proyecto en el navegador:
+		http://localhost:5173/
+
+5.- Si no tenemos la carpeta node_modules en el proyecto
+6.- Nos posicionamos dentro de la carpoeta del proyecto
+		npm install  (npm i)
+
+7.- Arrancar el proyecto, siempre dentro de la carpoeta del proyecto:
+		npm run dev
