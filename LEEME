@@ -1,0 +1,21 @@
+La barra de navegacion no cogia los mensajes de internacionalizacion porque los teniamos así:
+    "navbar":{
+        "home":"Inicio",
+        "museos":"Museos",
+        "equipo":"Equipo",
+        "contacto":"Contacto"
+    },
+
+
+y esto no lo acepta. Se han cambiado de esta forma y ya funciona correctamente.
+    "navbar.home": "Inicio",
+    "navbar.museos": "Museos",
+    "navbar.equipo": "Equipo",
+    "navbar.contacto": "Contacto",
+
+
+No hay que hacer nada mas.
+
+Me he tomado mi tiempo para colocar el formulario de contacto con estilos y tambien la lista de museos.
+
+Muchas gracias por vuestra asistencia.
